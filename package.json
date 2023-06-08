@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@devvaru/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lighthouse Labs Lotide project - a mini clone of Lodash",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Devvaru/lotide.git"
   },
-  "author": "",
+  "author": "Devon Gaal (https://github.com/Devvaru)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Devvaru/lotide/issues"
