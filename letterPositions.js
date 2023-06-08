@@ -37,3 +37,5 @@ assertArraysEqual(letterPositions(string).h, [0]);
 assertArraysEqual(letterPositions(string).l, [2, 3]);
 assertArraysEqual(letterPositions(string2).i, [1, 11]);
 assertArraysEqual(letterPositions(string2).e, [9, 16, 22]);
+
+module.exports = letterPositions;

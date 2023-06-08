@@ -36,3 +36,5 @@ console.log(countLetters(string));
 assertEqual(results["n"], 2);
 assertEqual(results["u"], 1);
 assertEqual(results["p"], 1);
+
+module.exports = countLetters;

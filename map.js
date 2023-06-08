@@ -35,3 +35,5 @@ console.log(results3);
 assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']);
 assertArraysEqual(results2, ['grounday', 'controlay', 'toay', 'majoray', 'tomay']);
 assertArraysEqual(results3, [6, 7, 2, 5, 3]);
+
+module.exports = map;
