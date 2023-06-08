@@ -1,10 +1,17 @@
-const assertEqual = require('../assertEqual');
+// const assertEqual = require('../assertEqual');
+const assert = require('chai').assert;
 const tail = require('../tail');
 
-let testArray = [1, 2, 3, 4];
-let testArray2 = [5];
-let testArray3 = [];
+describe("#tail", () => {
+  it("returns [2, 3, 4] for [1, 2, 3, 4]", () => {
+    assert.deepEqual(tail([1, 2, 3, 4]), [2, 3, 4]);
+  });
 
-assertEqual(tail(testArray).length, 3);
-assertEqual(tail(testArray2).length, 0);
-assertEqual(tail(testArray3), undefined);
+  it("returns empty array for [5]", () => {
+    assert.deepEqual(tail([5]), []);
+  });
+
+  it("returns undefined for empty array", () => {
+    assert.deepEqual(tail([]), undefined);
+  });
+});
