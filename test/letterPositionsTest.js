@@ -20,5 +20,4 @@ describe("#letterPositions", () => {
   it("returns [9, 16, 22] for 'Lighthouse in the house'.e", () => {
     assert.deepEqual(letterPositions('Lighthouse in the house').e, [9, 16, 22]);
   });
-
 });
