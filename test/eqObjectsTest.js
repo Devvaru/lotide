@@ -28,5 +28,4 @@ describe("#eqObjects", () => {
   it("returns false for multiColorShirtObject and longSleeveMultiColorShirtObject", () => {
     assert.deepEqual(eqObjects(multiColorShirtObject, longSleeveMultiColorShirtObject), false);
   });
-
 });
