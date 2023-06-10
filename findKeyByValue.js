@@ -7,14 +7,3 @@ const findKeyByValue = (obj, val) => {
 };
 
 module.exports = findKeyByValue;
-
-// Alternate solution via Larry bot
-
-// const findKeyByValue = (obj, val) => {
-//   const keys = Object.keys(obj);
-//   for(let i = 0; i < keys.length; i++) {
-//     if(obj[keys[i]] === val) {
-//       return keys[i];
-//     }
-//   }
-// };
