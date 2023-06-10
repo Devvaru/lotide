@@ -12,6 +12,11 @@ const takeUntil = require('./takeUntil');
 const findKey = require('./findKey');
 
 module.exports = {
+  assertEqual,
+  assertArraysEqual,
+  eqArrays,
+  assertObjectsEqual,
+  eqObjects,
   head,
   tail,
   middle,
