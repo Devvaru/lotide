@@ -26,20 +26,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `assertEqual`: compare two primitive values
-* `assertArraysEqual`: compare two arrays in console log
-* `eqArrays`: compare two arrays
-* `assertObjectsEqual`: compare two objects in console log
-* `eqObjects`: compare two objects
-* `head`: return the first value in an array
-* `tail`: return array without the first value in the array
-* `without`: return array without a specified part of the array
-* `flatten`: return a non nested array from a nested array
-* `middle`: return the middle value(s) of an array
-* `countOnly`: return the amount of times a value appears in an object, if the value is truthy
-* `countLetters`: return the amount of times a letter appears in an object
-* `letterPositions`: return the indexes of a letter in a string
-* `findKeyByValue`: return the key of an object based on the value
-* `map`: return a new array after iterating over each element of a given array
-* `takeUntil`: return an array up until a condition is met
-* `findKey`: return the key of a nested object based on a nested value
+* `assertEqual(actual, expected)`: takes in two primitive values and logs whether they are equal
+* `assertArraysEqual(arr1, arr2)`: takes in two arrays and logs whether they are equal
+* `eqArrays(arr1, arr2)`: takes in two arrays and returns true or false whether they are equal
+* `assertObjectsEqual(actual, expected)`: takes in two objects and logs whether they are equal
+* `eqObjects(object1, object2)`: takes in two objects and returns true or false whether they are equal
+* `head(arr)`: returns the first value in an array
+* `tail(arr)`: returns array without the first value in the array
+* `without(srcArr, itemsToRemoveArr)`: takes in a source array and an array with items to remove. Returns a new array with the items removed
+* `flatten(arr)`: returns a non nested array from a nested array
+* `middle(arr)`: returns the middle value(s) of an array
+* `countOnly(allItemsArr, itemsToCountObj)`: returns the amount of times a value (itemsToCountObj) appears in an array (allItemsArr), if the value is truthy
+* `countLetters(sentence)`: returns the amount of times a letter appears in an object
+* `letterPositions(sentence)`: returns the index(es) of a letter in a string
+* `findKeyByValue(obj, val)`: returns the key of an object based on the value
+* `map(arr, callback)`: returns a new array after iterating over each element of a given array
+* `takeUntil(arr, callback)`: iterates over and returns an array up until a condition is met
+* `findKey(obj, callback)`: returns the key of a nested object based on a nested value
