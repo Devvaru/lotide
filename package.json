@@ -1,8 +1,8 @@
 {
   "name": "@devvaru/lotide",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lighthouse Labs Lotide project - a mini clone of Lodash",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
