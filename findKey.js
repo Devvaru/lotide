@@ -1,6 +1,6 @@
-const findKey = function(object, callback) {
-  for (let key in object) {
-    if (callback(object[key])) {
+const findKey = function(obj, callback) {
+  for (let key in obj) {
+    if (callback(obj[key])) {
       return key;
     }
   }
