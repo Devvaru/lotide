@@ -1,6 +1,6 @@
 {
   "name": "@devvaru/lotide",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lighthouse Labs Lotide project - a mini clone of Lodash",
   "main": "index.js",
   "directories": {
