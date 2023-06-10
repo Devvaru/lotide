@@ -28,4 +28,17 @@ describe("#eqObjects", () => {
   it("returns false for multiColorShirtObject and longSleeveMultiColorShirtObject", () => {
     assert.deepEqual(eqObjects(multiColorShirtObject, longSleeveMultiColorShirtObject), false);
   });
+
+  it("returns false for {a:1, b:2}, {b:1, a:1}", () => {
+    assert.deepEqual(eqObjects({a:1, b:2}, {b:1, a:1}), false);
+  });
+  it("returns false for {a:1, b:2}, {b:2, a:2}", () => {
+    assert.deepEqual(eqObjects({a:1, b:2}, {b:2, a:2}), false);
+  });
+  it("returns false for {a:1, b:[2,3]}, {a:2, b:[2,3]}", () => {
+    assert.deepEqual(eqObjects({a:1, b:[2,3]}, {a:2, b:[2,3]}), false);
+  });
+  it("returns false for {a:[1,2], b:2}, {a:[1,2], b:3}", () => {
+    assert.deepEqual(eqObjects({a:[1,2], b:2}, {a:[1,2], b:3}), false);
+  });
 });
